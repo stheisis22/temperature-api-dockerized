@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  temperature_api_app:
+    image: stheisis22/temperature_api:latest  
+    ports:
+      - 5001:5001               
+  
